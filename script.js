@@ -36,7 +36,7 @@ kids.addEventListener("change", function () {
 });
 
 numKids.addEventListener("change", function () {
-  kidAgeInputs.innerHTML = ""; // clear previous inputs
+  kidAgeInputs.innerHTML = ""; 
   const count = parseInt(this.value);
   if (count > 0) {
     kidAgesGroup.style.display = "block";
