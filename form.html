@@ -26,14 +26,14 @@
 
       .header {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
         padding: 20px 40px;
       }
 
       .header img {
-        height: clamp(30px, 5vw, 50px); /* ✅ responsive height */
-        width: auto; /* keep aspect ratio */
+        height: clamp(30px, 5vw, 50px); 
+        width: auto;
       }
 
       .form-wrapper {
@@ -125,7 +125,6 @@
     <div class="container">
       <!-- Header Logos -->
       <div class="header">
-        <img src="assets/quilr.png" alt="Quilr Logo" />
         <img src="assets/hitachi.png" alt="Hitachi Logo" />
       </div>
 
