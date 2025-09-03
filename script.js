@@ -34,7 +34,6 @@ kids.addEventListener("change", function () {
     numKids.value = "";
   }
 });
-
 numKids.addEventListener("change", function () {
   kidAgeInputs.innerHTML = ""; 
   const count = parseInt(this.value);
